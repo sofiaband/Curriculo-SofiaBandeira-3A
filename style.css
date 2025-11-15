@@ -1,0 +1,83 @@
+
+@font-face{  /*Adicionar fontes baixadas é por aqui*/
+    font-family: "lemon";
+    src: url('./assets/LEMON.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: "lovemolly";
+    src: url('./assets/KGLoveMolly.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'lovemolly';  /*Serve pra escolher a fonte do texto*/
+    background-color: #e9ccef;  /*Serve para colocar cor de fundo na página*/
+    margin: 0;  /*Ajustar a distância da margem de dentro*/
+    padding: 0; /*Ajustar o tamanho da margem de fora*/
+}
+
+.container {   /*Quando a gente puxa uma div do html precisa colocar um ponto antes*/
+    max-width: 900px; /*Largura máxima do currículo*/
+    margin: 40px auto; /*Esse auto significa 40 px automático em qualquer dispositivo*/
+    background-color: white; /*Cor principal do currículo*/
+    padding: 30px;        /*Esse códigozinho aqui entre () é o código da cor*/ 
+    box-shadow: 0 4px 10px #580367; /*É uma sombra atrás que da um efeito maneiro*/
+    border-radius: 10px; /*Arredonda as bordas do container*/
+}
+
+.header {
+    text-align: center; /*Centraliza o conteúdo na página*/
+    margin-bottom: 20px /*Coloca uma imagem abaixo do cabeçalho*/
+}
+
+.header p{
+    margin: 2px 0;
+    color: #555;
+}
+
+h1{
+    color: #89159e;
+    font-family: 'lemon'
+}
+
+h2 { 
+    color: #89159e; /*Cor azul do título*/
+    border-bottom: 2px solid #89159e; /*Linha azul embaixo do título*/
+    font-family:'lemon'
+}
+
+P, 
+li {
+    text-align: justify; /*Deixa os cantos retinhos*/
+    line-height: 1.2; /*Aumenta o espaço entre os tópicos*/
+}
+
+ul{
+    list-style: none; /*Remove os marcadores*/
+    padding: 0; /*Remove os espaçamentos*/
+}
+
+.button {
+    display: flex; /*Flexível dependendo do dispositivo*/
+    justify-content: flex-end;  /*Alinha tudo na direita*/
+}
+
+#btn-print{  /*Aqui tudo é sobre o botão*/
+    background-color: #89159e; /*Cor de fundo do botão*/
+    color: white; /*Cor do texto do botão*/
+    border: none;
+    padding: 10px 20px; /*Tamanho do botão*/
+    cursor: pointer;
+    font-size: 16px; /*Tamanho das letras do botão*/
+    border-radius: 50px; /*Arredondamento das bordas */
+    font-family: 'lovemolly'; /*Fonte do texto do botão*/
+}
+
+#btn-print:hover{
+    background-color: rgb(38, 255, 0);
+}
+

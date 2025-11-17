@@ -24,7 +24,7 @@ body {
     max-width: 900px; /*Largura máxima do currículo*/
     margin: 40px auto; /*Esse auto significa 40 px automático em qualquer dispositivo*/
     background-color: white; /*Cor principal do currículo*/
-    padding: 30px;        /*Esse códigozinho aqui entre () é o código da cor*/ 
+    padding: 30px;         
     box-shadow: 0 4px 10px #580367; /*É uma sombra atrás que da um efeito maneiro*/
     border-radius: 10px; /*Arredonda as bordas do container*/
 }
@@ -37,6 +37,7 @@ body {
 .header p{
     margin: 2px 0;
     color: #555;
+    text-align: center; /*Coloca o paragrafo da header no centro*/
 }
 
 h1{
@@ -78,6 +79,10 @@ ul{
 }
 
 #btn-print:hover{
-    background-color: rgb(38, 255, 0);
+    color: #89159e;
+    background-color: #e9ccef;
 }
 
+img {
+    border-radius: 100px;
+}
